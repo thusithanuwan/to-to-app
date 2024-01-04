@@ -1,0 +1,10 @@
+{
+  "/posts": {
+    "target": "https://bankofceylon.gateway.mastercard.com",
+    "secure": true,
+    "pathRewrite": {
+      "^/posts": ""
+    },
+    "changeOrigin": true
+  }
+}
